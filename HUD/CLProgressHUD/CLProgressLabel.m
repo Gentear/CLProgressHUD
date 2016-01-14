@@ -43,6 +43,15 @@
         [self.clLabel removeFromSuperview];
     }];
 }
+/**
+ *  距离底部的高默认为80
+ *
+ *  @param remindLabelHight 距离底部的高
+ */
+- (void)setRemindLabelHight:(CGFloat)remindLabelHight{
+    self.clLabel.center = CGPointMake(CLScreenWidth/2, CLScreenHeight - remindLabelHight);
+
+}
 - (CGRect)getLabelSize:(NSString *)remindLabel{
 
     CGFloat titleW = 0;
@@ -63,8 +72,8 @@
     if (_clLabel == nil) {
         
         UILabel *clLabel = [[UILabel alloc]init];
-        clLabel.center = CGPointMake(CLScreenWidth/2, CLScreenHeight - 150);
         clLabel.textColor = [UIColor whiteColor];
+        clLabel.center = CGPointMake(CLScreenWidth/2, CLScreenHeight - 80*CLScreenWidth/375);
         clLabel.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.510];
         clLabel.font = [UIFont systemFontOfSize:CLFont];
         clLabel.layer.cornerRadius = 5;

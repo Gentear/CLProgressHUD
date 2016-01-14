@@ -84,13 +84,13 @@
     if (_shapLayer == nil) {
         
         CAShapeLayer *shapLayer = [CAShapeLayer layer];
-        shapLayer.frame = CGRectMake(30, 10, 100, 100);
+        shapLayer.frame = CGRectMake(35*CLScreenWidth/375, 15*CLScreenWidth/375, 80.0*CLScreenWidth/375, 80.0*CLScreenWidth/375);
         shapLayer.fillColor = [UIColor clearColor].CGColor;
         
         shapLayer.lineWidth = 1.0f;
         shapLayer.strokeColor = [UIColor blackColor].CGColor;//线条颜色
         
-        UIBezierPath *bezier = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 100, 100)];//画个圆
+        UIBezierPath *bezier = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 80.0*CLScreenWidth/375, 80.0*CLScreenWidth/375)];//画个圆
         shapLayer.path = bezier.CGPath;
         [self.layer addSublayer:shapLayer];
         shapLayer.strokeStart = 0;
@@ -101,8 +101,8 @@
 }
 - (UILabel *)refreshLabel{
     if (_refreshLabel == nil) {
-        UILabel *refreshLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 65, 40)];
-        refreshLabel.center = CGPointMake(90, 140);
+        UILabel *refreshLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 65, 40*CLScreenWidth/375)];
+        refreshLabel.center = CGPointMake(80*CLScreenWidth/375, 130*CLScreenWidth/375);
         //        refreshLabel.textAlignment = NSTextAlignmentCenter;
         refreshLabel.text = @"加载中...";
         [self addSubview:refreshLabel];
@@ -123,8 +123,8 @@
     return _currentWindow;
 }
 - (void)willMoveToSuperview:(UIView *)newSuperview{
-    self.frame = CGRectMake(0, 0, 160, 160);
-    self.center = CGPointMake(CLScreenWidth/2, CLScreenHeight/2 - 20);
+    self.frame = CGRectMake(0, 0, 150*CLScreenWidth/375, 150*CLScreenWidth/375);
+    self.center = CGPointMake(CLScreenWidth/2, CLScreenHeight/2 - 20*CLScreenWidth/375);
 }
 - (void)shows{
     [self timer];

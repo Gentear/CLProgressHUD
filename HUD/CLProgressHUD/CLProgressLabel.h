@@ -14,7 +14,10 @@
 
 @property (strong,nonatomic) NSString *remindLabel;
 
-
+/**
+ *  距离底部的高默认为80
+ */
+@property (assign,nonatomic)CGFloat remindLabelHight;
 + (id)progressLabel;
 
 @end

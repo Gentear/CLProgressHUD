@@ -43,7 +43,7 @@
     }
     CLProgressLabel *progressLabel = [CLProgressLabel progressLabel];
     progressLabel.remindLabel = @"请重新输入";
-
+    progressLabel.remindLabelHight = 100;
     
 }
 

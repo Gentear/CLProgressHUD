@@ -22,7 +22,10 @@
 
 
 CLProgressLabel *progressLabel = [CLProgressLabel progressLabel];
+
 输入提醒文本
 progressLabel.remindLabel = @"请重新输入";
+
+
 提醒文本距离底部的高度
 progressLabel.remindLabelHight = 100;

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3658D801C47348B00D23499 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F3658D7F1C47348B00D23499 /* README */; };
 		F37CE0C31C4637B000C9D87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CE0C21C4637B000C9D87E /* main.m */; };
 		F37CE0C61C4637B000C9D87E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CE0C51C4637B000C9D87E /* AppDelegate.m */; };
 		F37CE0C91C4637B000C9D87E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CE0C81C4637B000C9D87E /* ViewController.m */; };
@@ -15,13 +14,11 @@
 		F37CE0CE1C4637B000C9D87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37CE0CD1C4637B000C9D87E /* Assets.xcassets */; };
 		F37CE0D11C4637B000C9D87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37CE0CF1C4637B000C9D87E /* LaunchScreen.storyboard */; };
 		F37CE0DB1C4638ED00C9D87E /* CLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CE0DA1C4638ED00C9D87E /* CLProgressHUD.m */; };
-		F37CE0DD1C4640CC00C9D87E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F37CE0DC1C4640CC00C9D87E /* 1.png */; };
 		F37CE0E01C46551300C9D87E /* CLProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CE0DF1C46551300C9D87E /* CLProgressLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3658D7E1C4733E800D23499 /* CLProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLProgress.h; sourceTree = "<group>"; };
-		F3658D7F1C47348B00D23499 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		F37CE0BE1C4637B000C9D87E /* HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37CE0C21C4637B000C9D87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F37CE0C41C4637B000C9D87E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,7 +31,6 @@
 		F37CE0D21C4637B000C9D87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F37CE0D91C4638ED00C9D87E /* CLProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLProgressHUD.h; sourceTree = "<group>"; };
 		F37CE0DA1C4638ED00C9D87E /* CLProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLProgressHUD.m; sourceTree = "<group>"; };
-		F37CE0DC1C4640CC00C9D87E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		F37CE0DE1C46551300C9D87E /* CLProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLProgressLabel.h; sourceTree = "<group>"; };
 		F37CE0DF1C46551300C9D87E /* CLProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLProgressLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,8 +70,6 @@
 				F37CE0C51C4637B000C9D87E /* AppDelegate.m */,
 				F37CE0C71C4637B000C9D87E /* ViewController.h */,
 				F37CE0C81C4637B000C9D87E /* ViewController.m */,
-				F3658D7F1C47348B00D23499 /* README */,
-				F37CE0DC1C4640CC00C9D87E /* 1.png */,
 				F37CE0CA1C4637B000C9D87E /* Main.storyboard */,
 				F37CE0CD1C4637B000C9D87E /* Assets.xcassets */,
 				F37CE0CF1C4637B000C9D87E /* LaunchScreen.storyboard */,
@@ -162,9 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3658D801C47348B00D23499 /* README in Resources */,
 				F37CE0D11C4637B000C9D87E /* LaunchScreen.storyboard in Resources */,
-				F37CE0DD1C4640CC00C9D87E /* 1.png in Resources */,
 				F37CE0CE1C4637B000C9D87E /* Assets.xcassets in Resources */,
 				F37CE0CC1C4637B000C9D87E /* Main.storyboard in Resources */,
 			);

@@ -25,28 +25,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    self.view.backgroundColor = [UIColor yellowColor];
-//    UIImageView *image = [[UIImageView alloc]initWithFrame:ScreenBounds];
-//    image.image = [UIImage imageNamed:@"1"];
-//    [self.view addSubview:image];
-//    CLProgressHUD *HUD = [CLProgressHUD ProgressHUD];
-//    [self.view addSubview:HUD];
 }
 - (IBAction)butonClick:(UIButton *)sender {
-    sender.selected =!sender.selected;
-    if (sender.selected) {
-        [[CLProgressHUD shareInstance] shows];
-
-    }else{
-        [[CLProgressHUD shareInstance] dismiss];
-
-    }
+    [[CLProgressHUD shareInstance] shows];
     CLProgressLabel *progressLabel = [CLProgressLabel progressLabel];
-    progressLabel.remindLabel = @"请重新输入";
+    progressLabel.remindLabel = @"请重新输入你好的经理今年的萨拉就撒地方就开了三法拉克是今年建设的方式就看";
     progressLabel.remindLabelHight = 100;
-    
+    [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(finishWithHUD) userInfo:nil repeats:NO];
 }
-
+- (void)finishWithHUD{
+    [[CLProgressHUD shareInstance] dismiss];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

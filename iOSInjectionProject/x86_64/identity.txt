@@ -1,0 +1,2 @@
+/Users/zyyt/Library/Developer/Xcode/DerivedData/HUD-hbxihijjnilryfgabpygienoaeit/Build/Products/Debug-iphonesimulator/HUD.app
+

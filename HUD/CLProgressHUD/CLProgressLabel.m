@@ -37,7 +37,7 @@
     self.clLabel.numberOfLines = 0;
     [self.clLabel sizeToFit];
     self.clLabel.bounds = CGRectMake(0, 0, self.clLabel.bounds.size.width+16, self.clLabel.bounds.size.height+8);
-    [UIView animateWithDuration:1 delay:1 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:2 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.clLabel.alpha = 0;
     } completion:^(BOOL finished) {
         [self.clLabel removeFromSuperview];
@@ -74,7 +74,7 @@
         UILabel *clLabel = [[UILabel alloc]init];
         clLabel.textColor = [UIColor whiteColor];
         clLabel.center = CGPointMake(CLScreenWidth/2, CLScreenHeight - 80*CLScreenWidth/375);
-        clLabel.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.510];
+        clLabel.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.790];
         clLabel.font = [UIFont systemFontOfSize:CLFont];
         clLabel.layer.cornerRadius = 5;
         clLabel.clipsToBounds = YES;

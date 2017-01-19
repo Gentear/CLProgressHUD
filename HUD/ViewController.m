@@ -27,14 +27,18 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)butonClick:(UIButton *)sender {
-    [[CLProgressHUD shareInstance] shows];
+//    [[CLProgressHUD shareInstance] shows];
     CLProgressLabel *progressLabel = [CLProgressLabel progressLabel];
-    progressLabel.remindLabel = @"请重新输入你好的经理今年的萨拉就撒地方就开了三法拉克是今年建设的方式就看";
+    progressLabel.remindLabel = @"开始翻译";
     progressLabel.remindLabelHight = 100;
+//    progressLabel.remindLabel = @"123";
     [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(finishWithHUD) userInfo:nil repeats:NO];
 }
 - (void)finishWithHUD{
     [[CLProgressHUD shareInstance] dismiss];
+}
+- (void)injected{
+    [self viewDidLoad];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

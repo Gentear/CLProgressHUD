@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CC4E5F58-0A0F-483C-BC27-28870560ABFD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HUD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>714FEFACB715DC11D7A905ACB6498B24E1CC0ADE</key>
+		<string>https://github.com/Gentear/CLHUD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HUD.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>714FEFACB715DC11D7A905ACB6498B24E1CC0ADE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Gentear/CLHUD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>714FEFACB715DC11D7A905ACB6498B24E1CC0ADE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>714FEFACB715DC11D7A905ACB6498B24E1CC0ADE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HUD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
